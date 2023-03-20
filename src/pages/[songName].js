@@ -1,11 +1,7 @@
-import React from "react";
 import useSongList from "@/hooks/useSongList";
 import { useRouter } from "next/router";
 import { PuffLoader } from "react-spinners";
-import { Inter } from "next/font/google";
-import SearchInput from "@/components/SearchInput";
-
-const inter = Inter({ subsets: ["latin"] });
+import SearchSection from "@/components/SearchSection";
 
 function SearchResults() {
   const router = useRouter();
@@ -14,13 +10,14 @@ function SearchResults() {
 
   return (
     <>
-      <h1 className={inter.className}>VerseHub</h1>
-      <SearchInput />
-      <h1>Search Results:</h1>
-      {isLoading && <PuffLoader />}
-      {songList?.map(({ result }) => (
-        <h5>{result.full_title}</h5>
-      ))}
+      <SearchSection />
+      <section>
+        <h1>Search Results:</h1>
+        {isLoading && <PuffLoader />}
+        {songList?.map(({ result }) => (
+          <h5>{result.full_title}</h5>
+        ))}
+      </section>
     </>
   );
 }

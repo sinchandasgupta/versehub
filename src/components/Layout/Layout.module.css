@@ -1,0 +1,27 @@
+.heading {
+  text-align: center;
+  color: white;
+  margin: 32px;
+  font-size: 5rem;
+}
+
+.main {
+  /* min-height: 100vh; */
+  display: grid;
+  place-content: center;
+}
+
+.frame {
+  background-color: white;
+  padding: 32px;
+  border-radius: 1rem;
+  display: grid;
+}
+
+@media (min-width: 600px) {
+  .frame {
+    grid-template-columns: 1fr 1fr;
+    min-height: 600px;
+    min-width: 1000px;
+  }
+}
