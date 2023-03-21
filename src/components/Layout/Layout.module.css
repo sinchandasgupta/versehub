@@ -2,7 +2,7 @@
   text-align: center;
   color: white;
   margin: 32px;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 .main {
@@ -16,12 +16,13 @@
   padding: 32px;
   border-radius: 1rem;
   display: grid;
+  max-width: 1000px;
+  margin: 1rem;
+  min-width: 430px;
 }
 
 @media (min-width: 600px) {
   .frame {
     grid-template-columns: 1fr 1fr;
-    min-height: 600px;
-    min-width: 1000px;
   }
 }

@@ -12,10 +12,10 @@ function SearchResults() {
     <>
       <SearchSection />
       <section>
-        <h1>Search Results:</h1>
+        <h2>Search Results:</h2>
         {isLoading && <PuffLoader />}
         {songList?.map(({ result }) => (
-          <h5>{result.full_title}</h5>
+          <div>{result.full_title}</div>
         ))}
       </section>
     </>
