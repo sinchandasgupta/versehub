@@ -1,12 +1,10 @@
 import SearchInput from "../SearchInput";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import styles from "./SearchSection.module.css";
 
 function SearchSection() {
   return (
-    <section>
-      <h1>Search:</h1>
+    <section className={styles.searchsection}>
+      <h2>Search:</h2>
       <SearchInput />
     </section>
   );

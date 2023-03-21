@@ -1,0 +1,22 @@
+.inputWrapper {
+  background-color: white;
+  padding: 5px 8px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.textInput {
+  outline: none;
+  border: none;
+  margin-left: 5px;
+}
+
+.searchButton {
+  background-color: #95bdff;
+  border: none;
+  padding: 6px;
+  border-radius: inherit;
+  cursor: pointer;
+  margin-left: 5px;
+}

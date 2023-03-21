@@ -1,0 +1,12 @@
+.searchsection {
+  background-color: #95bdff;
+  min-height: 60vh;
+  max-width: 450px;
+  color: white;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
