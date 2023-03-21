@@ -10,3 +10,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.heading {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .searchsection {
+    max-width: 100%;
+  }
+}
