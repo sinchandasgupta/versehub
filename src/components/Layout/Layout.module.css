@@ -6,7 +6,6 @@
 }
 
 .main {
-  /* min-height: 100vh; */
   display: grid;
   place-content: center;
 }
@@ -21,6 +20,7 @@
   min-width: 430px;
   gap: 1rem;
   box-shadow: var(--shadow-elevation-medium);
+  border: 2px solid var(--mint6);
 }
 
 @media (min-width: 600px) {

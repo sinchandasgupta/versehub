@@ -4,6 +4,12 @@
   border-radius: 25px;
   display: flex;
   align-items: center;
+  border: 2px solid var(--mint10);
+  transition: border 0.2s ease;
+}
+
+.inputWrapper:hover {
+  border: 2px solid var(--mint11);
 }
 
 .textInput {
