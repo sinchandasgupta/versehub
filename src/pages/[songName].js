@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import { PuffLoader } from "react-spinners";
 import SearchSection from "@/components/SearchSection";
 import Head from "next/head";
+import ResultSection from "@/components/ResultSection";
+import styles from "@/components/ResultSection/ResultSection.module.css";
 
 function SearchResults() {
   const router = useRouter();
@@ -13,7 +15,7 @@ function SearchResults() {
     return (
       <>
         <SearchSection />
-        <section>
+        <section className={styles.resultSection}>
           <PuffLoader />
         </section>
       </>
@@ -27,12 +29,7 @@ function SearchResults() {
         <title>Results: {songName}</title>
       </Head>
       <SearchSection />
-      <section>
-        <h2>Search Results:</h2>
-        {songList?.map(({ result }) => (
-          <div>{result.full_title}</div>
-        ))}
-      </section>
+      <ResultSection songList={songList} />
     </>
   );
 }
