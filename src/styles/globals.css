@@ -1,3 +1,15 @@
+@import "@radix-ui/colors/mint.css";
+
+:root {
+  --shadow-color: 186deg 42% 70%;
+  --shadow-elevation-low: 0.4px 0.5px 0.9px hsl(var(--shadow-color) / 0.06),
+    1.2px 1.4px 2.6px -0.5px hsl(var(--shadow-color) / 0.26);
+  --shadow-elevation-medium: 0.4px 0.5px 0.9px hsl(var(--shadow-color) / 0.08),
+    6px 7.2px 13.3px -0.5px hsl(var(--shadow-color) / 0.36);
+  --shadow-elevation-high: 0.4px 0.5px 0.9px hsl(var(--shadow-color) / 0.1),
+    6.2px 7.5px 13.8px -0.3px hsl(var(--shadow-color) / 0.33),
+    20.5px 24.6px 45.4px -0.5px hsl(var(--shadow-color) / 0.57);
+}
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -69,5 +81,5 @@ h6 {
 }
 
 body {
-  background-color: #95bdff;
+  background-color: var(--mint4);
 }

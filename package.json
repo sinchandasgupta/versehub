@@ -10,6 +10,7 @@
     "new-component": "new-component"
   },
   "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
     "new-component": "^5.0.2",
     "next": "13.2.4",
     "react": "18.2.0",

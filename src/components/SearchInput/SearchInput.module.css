@@ -13,10 +13,15 @@
 }
 
 .searchButton {
-  background-color: #95bdff;
+  background-color: var(--mint6);
   border: none;
   padding: 6px;
   border-radius: inherit;
   cursor: pointer;
   margin-left: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.searchButton:hover {
+  background-color: var(--mint7);
 }
