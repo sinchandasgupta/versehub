@@ -6,6 +6,7 @@
   align-items: center;
   border: 2px solid var(--mint10);
   transition: border 0.2s ease;
+  box-shadow: var(--shadow-elevation-medium)
 }
 
 .inputWrapper:hover {
