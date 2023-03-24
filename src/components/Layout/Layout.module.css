@@ -21,6 +21,8 @@
   gap: 1rem;
   box-shadow: var(--shadow-elevation-medium);
   border: 2px solid var(--mint6);
+  position: relative;
+  z-index: 1;
 }
 
 @media (min-width: 600px) {
