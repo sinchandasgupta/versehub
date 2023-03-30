@@ -1,4 +1,5 @@
 import React from "react";
+import Lyrics from "../Lyrics/Lyrics";
 
 function ResultSection({ songList }) {
   return (
@@ -6,7 +7,7 @@ function ResultSection({ songList }) {
       <section>
         <h2>Search Results:</h2>
         {songList?.map(({ result }) => (
-          <div>{result.full_title}</div>
+          <Lyrics key={result.id} result={result} />
         ))}
       </section>
     </>
