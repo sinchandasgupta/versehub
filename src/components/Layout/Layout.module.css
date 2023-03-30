@@ -2,7 +2,7 @@
   text-align: center;
   color: var(--mint12);
   margin: 32px;
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .main {
@@ -15,9 +15,9 @@
   padding: 16px;
   border-radius: 1rem;
   display: grid;
+  margin: 1rem;
   max-width: 1000px;
   margin: 1rem;
-  min-width: 430px;
   gap: 1rem;
   box-shadow: var(--shadow-elevation-medium);
   border: 2px solid var(--mint6);

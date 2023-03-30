@@ -1,12 +1,15 @@
 .inputWrapper {
   background-color: white;
   padding: 5px 8px;
+  width: 100%;
   border-radius: 25px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  z-index: 1;
   border: 2px solid var(--mint10);
   transition: border 0.2s ease;
-  box-shadow: var(--shadow-elevation-medium)
+  box-shadow: var(--shadow-elevation-medium);
 }
 
 .inputWrapper:hover {
@@ -14,6 +17,7 @@
 }
 
 .textInput {
+  width: 80%;
   outline: none;
   border: none;
   margin-left: 5px;
@@ -21,7 +25,6 @@
 
 .searchButton {
   background-color: var(--mint6);
-  min-width: 36px;
   border: none;
   padding: 6px;
   border-radius: inherit;
