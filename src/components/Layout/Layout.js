@@ -6,7 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 function Layout({ children }) {
   return (
     <div className={inter.className}>
-      <h1 className={styles.heading}>VerseHub</h1>
+      <h1 className={styles.heading}>
+        Verse<span className={styles.hub}>HUB</span>
+      </h1>
       <main className={styles.main}>
         <div className={styles.frame}>{children}</div>
       </main>

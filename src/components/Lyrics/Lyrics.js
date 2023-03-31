@@ -10,6 +10,7 @@ function Lyrics({ result }) {
         height={40}
         src={result.header_image_thumbnail_url}
         className={styles.thumbnail}
+        alt={`${result.title} Album art`}
       />
       <div className={styles.stats}>
         <p className={styles.songName}>{result.title}</p>

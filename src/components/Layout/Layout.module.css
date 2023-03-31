@@ -5,6 +5,14 @@
   font-size: 4rem;
 }
 
+.hub {
+  padding: 0.3rem 0.8rem;
+  background-color: var(--mint12);
+  color: white;
+  margin-left: 0.2rem;
+  border-radius: 0.5rem;
+}
+
 .main {
   display: grid;
   place-content: center;
@@ -12,10 +20,10 @@
 
 .frame {
   background-color: var(--mint3);
-  padding: 16px;
+  padding: 1.5rem;
   border-radius: 1rem;
   display: grid;
-  max-width: 70rem;
+  max-width: 72rem;
   margin: 1rem;
   box-shadow: var(--shadow-elevation-medium);
   border: 2px solid var(--mint6);
@@ -27,10 +35,20 @@
   .frame {
     grid-template-columns: 1fr 1fr;
   }
+  .heading {
+    font-size: 4.5rem;
+  }
 }
 
 @media (max-width: 600px) {
   .frame {
     margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .frame {
+    min-width: 75rem;
+    padding: 2rem;
   }
 }
