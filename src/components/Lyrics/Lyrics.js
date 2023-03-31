@@ -4,7 +4,7 @@ import styles from "./Lyrics.module.css";
 
 function Lyrics({ result }) {
   return (
-    <Link href={`/lyrics/${result.id}`} className={styles.result}>
+    <Link href="#" className={styles.result}>
       <Image
         width={40}
         height={40}

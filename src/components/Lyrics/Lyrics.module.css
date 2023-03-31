@@ -9,12 +9,18 @@
   transition: background-color 0.2s ease-in-out;
   color: var(--mint12);
   border: 1px solid var(--mint3);
+  transition: transform 0.1s ease-in-out;
 }
 
 .result:hover {
   background-color: var(--mint5);
-  border: 1px solid var(--mint7);
+  border: 1px solid var(--mint8);
+  transform: scale(1.02);
   z-index: 1;
+}
+
+.result:active {
+  transform: scale(0.98);
 }
 
 .thumbnail {
