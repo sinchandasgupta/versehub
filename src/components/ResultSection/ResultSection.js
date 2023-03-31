@@ -5,7 +5,7 @@ function ResultSection({ songList }) {
   return (
     <>
       <section className={styles.resultSection}>
-        <h2>Search Results:</h2>
+        <h2 className={styles.heading}>Results:</h2>
         <div className={styles.results}>
           {songList?.map(({ result }) => (
             <Lyrics key={result.id} result={result} />

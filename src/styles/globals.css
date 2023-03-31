@@ -1,4 +1,5 @@
 @import "@radix-ui/colors/mint.css";
+@import "@radix-ui/colors/mintDark.css";
 
 :root {
   --shadow-color: 186deg 42% 70%;

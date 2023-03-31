@@ -6,6 +6,10 @@
   height: 100%;
 }
 
+.heading {
+  color: var(--mint12);
+}
+
 .spinner {
   display: flex;
   justify-content: center;
