@@ -1,0 +1,32 @@
+.result {
+  display: flex;
+  align-items: center;
+  gap: 0.325rem;
+  width: 100%;
+  padding: 0.5rem 0.2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+  color: var(--mint12);
+  border: 1px solid var(--mint3);
+}
+
+.result:hover {
+  background-color: var(--mint5);
+  border: 1px solid var(--mint7);
+  z-index: 1;
+}
+
+.thumbnail {
+  margin: 0 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.songName {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.artistName {
+  font-size: 0.75rem;
+}

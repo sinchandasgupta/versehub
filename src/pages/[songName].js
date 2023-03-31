@@ -15,7 +15,7 @@ function SearchResults() {
     return (
       <>
         <SearchSection />
-        <section className={styles.resultSection}>
+        <section className={styles.spinner}>
           <PuffLoader />
         </section>
       </>

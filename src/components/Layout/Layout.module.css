@@ -16,9 +16,8 @@
   border-radius: 1rem;
   display: grid;
   margin: 1rem;
-  max-width: 1000px;
+  max-width: 70rem;
   margin: 1rem;
-  gap: 1rem;
   box-shadow: var(--shadow-elevation-medium);
   border: 2px solid var(--mint6);
   position: relative;
