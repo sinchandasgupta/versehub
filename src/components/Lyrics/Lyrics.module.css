@@ -17,6 +17,7 @@
   border: 1px solid var(--mint8);
   transform: scale(1.02);
   z-index: 1;
+  box-shadow: var(--shadow-elevation-low);
 }
 
 .result:active {
