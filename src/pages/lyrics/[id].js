@@ -17,8 +17,6 @@ export default function LyricsPage() {
     /\[([^\]]+)\]/g,
     "<span>$&</span>"
   );
-  // Strip <br> tags next to </p>
-  const finalLyrics = styledLyrics?.replace(/<\/p><br>/g, "</spans>");
 
   if (isLoading)
     return (
@@ -33,7 +31,7 @@ export default function LyricsPage() {
 
   return (
     <>
-      <LyricsView finalLyrics={finalLyrics} />
+      <LyricsView styledLyrics={styledLyrics} />
     </>
   );
 }
