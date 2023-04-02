@@ -4,6 +4,7 @@
   gap: 0.325rem;
   width: 100%;
   padding: 0.5rem 0.2rem;
+  margin-top: 2px;
   text-decoration: none;
   border-radius: 0.5rem;
   transition: background-color 0.2s ease-in-out;

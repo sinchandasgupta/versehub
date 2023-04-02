@@ -1,7 +1,6 @@
 .resultSection {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
   width: 100%;
   height: 100%;
 }
@@ -20,6 +19,9 @@
 .results {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  padding: 0 0.4rem;
+  overflow: auto;
 }
 
 @media (max-width: 600px) {

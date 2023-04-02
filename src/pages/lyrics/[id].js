@@ -1,6 +1,8 @@
+import LyricsView from "@/components/LyricsView/LyricsView";
 import useLyrics from "@/hooks/useLyrics";
 import { useRouter } from "next/router";
 import { PuffLoader } from "react-spinners";
+import styles from "@/components/LyricsView/LyricsView.module.css";
 
 export default function LyricsPage() {
   const router = useRouter();
@@ -14,7 +16,7 @@ export default function LyricsPage() {
   if (isLoading)
     return (
       <>
-        <section className="">
+        <section className={styles.viewer}>
           <PuffLoader />
         </section>
       </>
@@ -24,7 +26,7 @@ export default function LyricsPage() {
 
   return (
     <>
-      <section dangerouslySetInnerHTML={{ __html: strippedLyrics }} />
+      <LyricsView strippedLyrics={strippedLyrics} />
     </>
   );
 }

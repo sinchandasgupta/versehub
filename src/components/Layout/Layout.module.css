@@ -23,7 +23,9 @@
   padding: 1.5rem;
   border-radius: 1rem;
   display: grid;
-  max-width: 72rem;
+  gap: 1rem;
+  width: 90vw;
+  max-width: 1000px;
   margin: 1rem;
   box-shadow: var(--shadow-elevation-medium);
   border: 2px solid var(--mint6);
@@ -48,7 +50,6 @@
 
 @media (min-width: 1200px) {
   .frame {
-    min-width: 75rem;
     padding: 2rem;
   }
 }

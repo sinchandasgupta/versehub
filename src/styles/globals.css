@@ -81,6 +81,29 @@ h6 {
   isolation: isolate;
 }
 
+::-webkit-scrollbar {
+  height: 90%;
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: hsla(172, 70%, 12%, 0.1);
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--mint7);
+  border-radius: 50px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--mint11);
+}
+
 body {
   background-color: var(--mint4);
 }
