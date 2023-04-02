@@ -16,7 +16,7 @@ export default function LyricsPage() {
   if (isLoading)
     return (
       <>
-        <section className={styles.viewer}>
+        <section className={styles.spinner}>
           <PuffLoader />
         </section>
       </>

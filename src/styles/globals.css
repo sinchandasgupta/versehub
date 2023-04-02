@@ -94,7 +94,7 @@ h6 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: var(--mint7);
+  background-color: var(--mint6);
   border-radius: 50px;
   transition: background-color 0.5s ease-in-out;
 }

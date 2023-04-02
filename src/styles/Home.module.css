@@ -1,0 +1,16 @@
+.section {
+  display: grid;
+  place-content: center;
+  height: 72.5vh;
+}
+
+.heading {
+  color: var(--mint12);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .section {
+    height: 20vh;
+  }
+}

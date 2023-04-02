@@ -20,7 +20,7 @@
 
 .frame {
   background-color: var(--mint3);
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 1rem;
   display: grid;
   gap: 1rem;
@@ -37,9 +37,6 @@
   .frame {
     grid-template-columns: 1fr 1fr;
   }
-  .heading {
-    font-size: 4.5rem;
-  }
 }
 
 @media (max-width: 600px) {
@@ -51,5 +48,8 @@
 @media (min-width: 1200px) {
   .frame {
     padding: 2rem;
+  }
+  .heading {
+    font-size: 4.5rem;
   }
 }

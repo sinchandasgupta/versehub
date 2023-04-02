@@ -4,7 +4,7 @@ import { PuffLoader } from "react-spinners";
 import SearchSection from "@/components/SearchSection";
 import Head from "next/head";
 import ResultSection from "@/components/ResultSection";
-import styles from "@/components/ResultSection/ResultSection.module.css";
+import styles from "@/styles/Home.module.css";
 
 function SearchResults() {
   const router = useRouter();
@@ -15,7 +15,7 @@ function SearchResults() {
     return (
       <>
         <SearchSection />
-        <section className={styles.spinner}>
+        <section className={styles.section}>
           <PuffLoader />
         </section>
       </>

@@ -3,8 +3,42 @@
   height: 65vh;
   overflow: auto;
   padding: 2rem 4rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  display: grid;
   font-weight: 500;
+}
+
+.spinner {
+  grid-column: 1 / span 2;
+  display: grid;
+  place-content: center;
+  height: 72.5vh;
+}
+
+.backButton {
+  position: absolute;
+  z-index: 1;
+  top: 1.2rem;
+  left: 1.2rem;
+  padding: 5px;
+  transform: scale(0.9);
+  border-radius: 50%;
+  border: none;
+  background-color: var(--mint5);
+  cursor: pointer;
+  color: var(--mint12);
+  transition: all 0.1s ease-in-out;
+}
+
+.backButton:hover {
+  background-color: var(--mint6);
+}
+
+.backButton:active {
+  transform: scale(0.75);
+}
+
+@media (max-width: 600px) {
+  .viewer {
+    height: 72.5vh;
+  }
 }

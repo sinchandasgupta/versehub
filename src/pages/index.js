@@ -1,5 +1,6 @@
 import Head from "next/head";
 import SearchSection from "@/components/SearchSection";
+import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SearchSection />
+      <section className={styles.section}>
+        <h2 className={styles.heading}>Get lyrics in seconds!..</h2>
+      </section>
     </>
   );
 }
