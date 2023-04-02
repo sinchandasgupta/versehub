@@ -2,7 +2,7 @@ import styles from "./LyricsView.module.css";
 import { ChevronLeft } from "react-feather";
 import { useRouter } from "next/router";
 
-function LyricsView({ strippedLyrics }) {
+function LyricsView({ finalLyrics }) {
   const router = useRouter();
   return (
     <>
@@ -11,7 +11,7 @@ function LyricsView({ strippedLyrics }) {
       </button>
       <section
         className={styles.viewer}
-        dangerouslySetInnerHTML={{ __html: strippedLyrics }}
+        dangerouslySetInnerHTML={{ __html: finalLyrics }}
       />
     </>
   );

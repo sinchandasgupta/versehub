@@ -12,6 +12,13 @@ export default function LyricsPage() {
   // Strip the already existing  <a></a>
   // in the html
   const strippedLyrics = html?.replace(/<a\s+href=[^>]*>|<\/a>/gi, "");
+  // Add <span></span> tags to the lyrics
+  const styledLyrics = strippedLyrics?.replace(
+    /\[([^\]]+)\]/g,
+    "<span>$&</span>"
+  );
+  // Strip <br> tags next to </p>
+  const finalLyrics = styledLyrics?.replace(/<\/p><br>/g, "</spans>");
 
   if (isLoading)
     return (
@@ -26,7 +33,7 @@ export default function LyricsPage() {
 
   return (
     <>
-      <LyricsView strippedLyrics={strippedLyrics} />
+      <LyricsView finalLyrics={finalLyrics} />
     </>
   );
 }
