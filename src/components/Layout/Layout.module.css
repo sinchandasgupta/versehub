@@ -43,6 +43,9 @@
   .frame {
     margin: 0;
   }
+  .heading {
+    font-size: 3.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
