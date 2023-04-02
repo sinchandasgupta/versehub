@@ -1,12 +1,23 @@
 .viewer {
   grid-column: 1 / span 2;
-  height: 65vh;
+  height: 72.5vh;
   overflow: auto;
   padding: 2rem 4rem;
   display: grid;
+  text-align: center;
   font-weight: 500;
 }
 
+.viewer span {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background-color: var(--mint12);
+  color: var(--mint1);
+}
 .spinner {
   grid-column: 1 / span 2;
   display: grid;
