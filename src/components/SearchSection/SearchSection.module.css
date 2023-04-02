@@ -18,5 +18,6 @@
 @media (max-width: 600px) {
   .searchsection {
     width: 100%;
+    padding: 3rem;
   }
 }
