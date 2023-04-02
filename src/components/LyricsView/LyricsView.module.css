@@ -1,0 +1,10 @@
+.viewer {
+  grid-column: 1 / span 2;
+  height: 65vh;
+  overflow: auto;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 500;
+}
