@@ -7,6 +7,9 @@
 .heading {
   color: var(--mint12);
   font-weight: 600;
+  background-color: var(--mint6);
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 600px) {

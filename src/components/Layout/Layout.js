@@ -1,11 +1,11 @@
 import styles from "./Layout.module.css";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Poppins({ weight: "400", subsets: ["latin"] });
 
 function Layout({ children }) {
   return (
-    <div className={inter.className}>
+    <div className={font.className}>
       <h1 className={styles.heading}>
         Verse<span className={styles.hub}>HUB</span>
       </h1>

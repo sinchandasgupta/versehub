@@ -6,14 +6,15 @@
   display: grid;
   text-align: center;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 .viewer span {
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
-  padding: 3px 10px;
+  margin-bottom: 1rem;
+  padding: 5px 10px;
   border-radius: 5px;
   background-color: var(--mint12);
   color: var(--mint1);

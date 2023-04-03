@@ -1,7 +1,7 @@
 export const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "b825f65bc7msh6fd168bf049ee00p10c525jsnc6458bbdbe06",
+    "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPID_API_KEY,
     "X-RapidAPI-Host": "genius-song-lyrics1.p.rapidapi.com",
   },
 };

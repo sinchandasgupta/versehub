@@ -9,7 +9,6 @@ function useLyrics(id) {
     `${BASE_URL}/song/lyrics/?id=${id}`,
     fetcher
   );
-  console.log(data?.lyrics.lyrics.body);
   return {
     lyrics: data?.lyrics.lyrics.body,
     error,
