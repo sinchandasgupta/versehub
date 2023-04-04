@@ -1,7 +1,7 @@
 import styles from "./Layout.module.css";
 import { Poppins } from "next/font/google";
 
-const font = Poppins({ weight: "400", subsets: ["latin"] });
+const font = Poppins({ weight: "600", subsets: ["latin"] });
 
 function Layout({ children }) {
   return (
