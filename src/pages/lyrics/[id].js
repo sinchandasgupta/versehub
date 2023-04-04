@@ -27,7 +27,7 @@ export default function LyricsPage() {
 	  <meta name="theme-color" content="#09342e" />
         </Head>
         <section className={styles.spinner}>
-          <PuffLoader />
+          <PuffLoader color="#09342e" />
         </section>
       </>
     );

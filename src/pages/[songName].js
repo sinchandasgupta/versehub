@@ -19,7 +19,7 @@ function SearchResults() {
 	</Head>
         <SearchSection />
         <section className={styles.section}>
-          <PuffLoader />
+          <PuffLoader color="#09342e" />
         </section>
       </>
     );
