@@ -17,7 +17,7 @@
   font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 1rem;
-  padding: 2px 6px;
+  padding: 3px 6px;
   border-radius: 5px;
   background-image: linear-gradient(
     45deg,
@@ -40,9 +40,8 @@
     hsl(165deg 44% 73%) 100%,
     hsl(165deg 54% 77%) 100%
   );
-  border: 2px solid var(--mint7);
   color: var(--mint1);
-  box-shadow: var(--shadow-elevation-low);
+  box-shadow: var(--shadow-elevation-medium);
 }
 .spinner {
   grid-column: 1 / span 2;
