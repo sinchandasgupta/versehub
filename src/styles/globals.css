@@ -86,6 +86,10 @@ h6 {
   width: 10px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
   background-color: hsla(172, 70%, 12%, 0.1);
