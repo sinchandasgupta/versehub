@@ -2,7 +2,7 @@
   text-align: center;
   color: var(--mint12);
   margin: 1rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .hub {
@@ -11,6 +11,7 @@
   color: white;
   margin-left: 0.2rem;
   border-radius: 0.5rem;
+  box-shadow: var(--shadow-elevation-medium);
 }
 
 .main {
@@ -42,9 +43,10 @@
 @media (max-width: 600px) {
   .frame {
     margin: 0;
+    width: 95vw;
   }
   .heading {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -53,6 +55,6 @@
     padding: 2rem;
   }
   .heading {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }

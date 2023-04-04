@@ -23,6 +23,7 @@
   margin-left: 5px;
   background-color: var(--mint3);
   font-weight: 600;
+  font-size: 0.85rem;
 }
 
 .searchButton {

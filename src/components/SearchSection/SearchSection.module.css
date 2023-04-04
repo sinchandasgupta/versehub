@@ -1,4 +1,6 @@
 .searchsection {
+  position: relative;
+  z-index: 1;
   background-color: var(--mint12);
   color: white;
   width: 100%;
@@ -6,19 +8,20 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  border-radius: 12px;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
+  box-shadow: var(--shadow-elevation-medium);
 }
 
 .heading {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 600px) {
   .searchsection {
     width: 100%;
-    padding: 3rem;
+    padding: 2rem;
   }
 }
