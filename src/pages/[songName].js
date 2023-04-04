@@ -14,6 +14,9 @@ function SearchResults() {
   if (isLoading)
     return (
       <>
+	<Head>
+	  <meta name="theme-color" content="#09342e" />
+	</Head>
         <SearchSection />
         <section className={styles.section}>
           <PuffLoader />
@@ -27,6 +30,7 @@ function SearchResults() {
     <>
       <Head>
         <title>Results: {songName}</title>
+	<meta name="theme-color" content="#09342e" />
       </Head>
       <SearchSection />
       <ResultSection songList={songList} />
