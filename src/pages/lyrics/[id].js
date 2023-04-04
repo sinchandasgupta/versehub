@@ -24,7 +24,7 @@ export default function LyricsPage() {
       <>
         <Head>
           <title>Loading...</title>
-	  <meta name="theme-color" content="#09342e" />
+          <meta name="theme-color" content="#09342e" />
         </Head>
         <section className={styles.spinner}>
           <PuffLoader color="#09342e" />
@@ -37,6 +37,7 @@ export default function LyricsPage() {
   return (
     <>
       <Head>
+        <meta name="theme-color" content="#09342e" />
         <title>Verse-Hub</title>
       </Head>
       <LyricsView styledLyrics={styledLyrics} />
