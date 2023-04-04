@@ -109,5 +109,17 @@ html {
 }
 
 body {
-  background-color: var(--mint4);
+  background-image: linear-gradient(
+    10deg,
+    hsl(166deg 50% 66%) 0%,
+    hsl(166deg 51% 69%) 14%,
+    hsl(166deg 52% 72%) 25%,
+    hsl(165deg 53% 74%) 35%,
+    hsl(165deg 54% 77%) 45%,
+    hsl(165deg 55% 79%) 54%,
+    hsl(164deg 57% 82%) 63%,
+    hsl(164deg 60% 85%) 73%,
+    hsl(164deg 64% 87%) 85%,
+    hsl(164deg 70% 90%) 100%
+  );
 }

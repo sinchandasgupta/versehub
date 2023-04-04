@@ -14,7 +14,23 @@
 }
 
 .result:hover {
-  background-color: var(--mint5);
+  background-image: linear-gradient(
+    55deg,
+    hsl(164deg 76% 93%) 0%,
+    hsl(164deg 71% 92%) 39%,
+    hsl(164deg 68% 91%) 55%,
+    hsl(164deg 65% 90%) 66%,
+    hsl(164deg 63% 88%) 74%,
+    hsl(164deg 61% 87%) 81%,
+    hsl(164deg 60% 86%) 86%,
+    hsl(164deg 58% 85%) 90%,
+    hsl(164deg 57% 83%) 93%,
+    hsl(164deg 56% 82%) 95%,
+    hsl(165deg 56% 81%) 97%,
+    hsl(165deg 55% 80%) 99%,
+    hsl(165deg 54% 78%) 99%,
+    hsl(165deg 54% 77%) 100%
+  );
   border: 1px solid var(--mint8);
   transform: scale(1.02);
   z-index: 1;
