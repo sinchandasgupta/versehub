@@ -15,20 +15,20 @@
 
 .result:hover {
   background-image: linear-gradient(
-    55deg,
+    90deg,
     hsl(164deg 76% 93%) 0%,
-    hsl(164deg 71% 92%) 39%,
-    hsl(164deg 68% 91%) 55%,
-    hsl(164deg 65% 90%) 66%,
-    hsl(164deg 63% 88%) 74%,
-    hsl(164deg 61% 87%) 81%,
-    hsl(164deg 60% 86%) 86%,
-    hsl(164deg 58% 85%) 90%,
-    hsl(164deg 57% 83%) 93%,
-    hsl(164deg 56% 82%) 95%,
-    hsl(165deg 56% 81%) 97%,
-    hsl(165deg 55% 80%) 99%,
-    hsl(165deg 54% 78%) 99%,
+    hsl(164deg 71% 92%) 29%,
+    hsl(164deg 68% 91%) 40%,
+    hsl(164deg 65% 90%) 47%,
+    hsl(164deg 63% 88%) 53%,
+    hsl(164deg 61% 87%) 58%,
+    hsl(164deg 60% 86%) 63%,
+    hsl(164deg 58% 85%) 67%,
+    hsl(164deg 57% 83%) 72%,
+    hsl(164deg 56% 82%) 77%,
+    hsl(165deg 56% 81%) 82%,
+    hsl(165deg 55% 80%) 88%,
+    hsl(165deg 54% 78%) 93%,
     hsl(165deg 54% 77%) 100%
   );
   border: 1px solid var(--mint8);

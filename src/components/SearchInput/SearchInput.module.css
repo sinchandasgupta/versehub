@@ -7,13 +7,13 @@
   align-items: center;
   justify-content: space-between;
   z-index: 1;
-  border: 1px solid var(--mint12);
+  border: 1.8px solid var(--mint11);
   transition: border 0.2s ease;
   /* box-shadow: var(--shadow-elevation-medium); */
 }
 
 .inputWrapper:hover {
-  border: 1px solid var(--mint4);
+  border: 1.8px solid var(--mint12);
 }
 
 .textInput {
