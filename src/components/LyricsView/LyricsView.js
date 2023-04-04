@@ -13,7 +13,7 @@ function LyricsView({ styledLyrics }) {
       <motion.section
         initial={{ opacity: 0, y: 25 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ type: "spring", stiffness: 300 }}
+        transition={{ type: "spring", stiffness: 300, damping: 15 }}
         className={styles.viewer}
         dangerouslySetInnerHTML={{ __html: styledLyrics }}
       />

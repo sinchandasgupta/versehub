@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Verse Hub</title>
+        <title>Verse-Hub</title>
         <meta name="description" content="Get lyrics in seconds..." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

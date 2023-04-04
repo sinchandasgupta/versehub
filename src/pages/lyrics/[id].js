@@ -3,6 +3,7 @@ import useLyrics from "@/hooks/useLyrics";
 import { useRouter } from "next/router";
 import { PuffLoader } from "react-spinners";
 import styles from "@/components/LyricsView/LyricsView.module.css";
+import Head from "next/head";
 
 export default function LyricsPage() {
   const router = useRouter();
@@ -21,6 +22,9 @@ export default function LyricsPage() {
   if (isLoading)
     return (
       <>
+        <Head>
+          <title>Loading...</title>
+        </Head>
         <section className={styles.spinner}>
           <PuffLoader />
         </section>
@@ -29,5 +33,12 @@ export default function LyricsPage() {
 
   if (error) return <div>Something went wrong...</div>;
 
-  return <LyricsView styledLyrics={styledLyrics} />;
+  return (
+    <>
+      <Head>
+        <title>Verse-Hub</title>
+      </Head>
+      <LyricsView styledLyrics={styledLyrics} />
+    </>
+  );
 }
