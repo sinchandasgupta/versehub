@@ -29,9 +29,5 @@ export default function LyricsPage() {
 
   if (error) return <div>Something went wrong...</div>;
 
-  return (
-    <>
-      <LyricsView styledLyrics={styledLyrics} />
-    </>
-  );
+  return <LyricsView styledLyrics={styledLyrics} />;
 }

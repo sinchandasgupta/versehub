@@ -1,7 +1,7 @@
 .section {
   display: grid;
   place-content: center;
-  height: 72.5vh;
+  height: 70vh;
 }
 
 .heading {

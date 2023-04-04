@@ -1,6 +1,6 @@
 .viewer {
   grid-column: 1 / span 2;
-  height: 72.5vh;
+  height: 70vh;
   overflow: auto;
   padding: 2rem 4rem;
   display: grid;
@@ -23,14 +23,14 @@
   grid-column: 1 / span 2;
   display: grid;
   place-content: center;
-  height: 72.5vh;
+  height: 70vh;
 }
 
 .backButton {
   position: absolute;
   z-index: 1;
-  top: 1.2rem;
-  left: 1.2rem;
+  top: 1.5rem;
+  left: 1.4rem;
   padding: 5px;
   transform: scale(0.9);
   border-radius: 50%;
@@ -51,6 +51,10 @@
 
 @media (max-width: 600px) {
   .viewer {
-    height: 72.5vh;
+    height: 70vh;
+  }
+  .backButton {
+    top: 1rem;
+    left: 1rem;
   }
 }
