@@ -1,7 +1,7 @@
 import LyricsView from "@/components/LyricsView/LyricsView";
 import useLyrics from "@/hooks/useLyrics";
 import { useRouter } from "next/router";
-import { PuffLoader } from "react-spinners";
+import { MoonLoader } from "react-spinners";
 import styles from "@/components/LyricsView/LyricsView.module.css";
 import Head from "next/head";
 
@@ -27,7 +27,7 @@ export default function LyricsPage() {
           <meta name="theme-color" content="#09342e" />
         </Head>
         <section className={styles.spinner}>
-          <PuffLoader color="#09342e" />
+          <MoonLoader color="#09342e" size={50} />
         </section>
       </>
     );

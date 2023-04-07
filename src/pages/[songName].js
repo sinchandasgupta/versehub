@@ -1,6 +1,6 @@
 import useSongList from "@/hooks/useSongList";
 import { useRouter } from "next/router";
-import { PuffLoader } from "react-spinners";
+import { MoonLoader } from "react-spinners";
 import SearchSection from "@/components/SearchSection";
 import Head from "next/head";
 import ResultSection from "@/components/ResultSection";
@@ -14,12 +14,12 @@ function SearchResults() {
   if (isLoading)
     return (
       <>
-	<Head>
-	  <meta name="theme-color" content="#09342e" />
-	</Head>
+        <Head>
+          <meta name="theme-color" content="#09342e" />
+        </Head>
         <SearchSection />
         <section className={styles.section}>
-          <PuffLoader color="#09342e" />
+          <MoonLoader color="#09342e" size={40} />
         </section>
       </>
     );
@@ -30,7 +30,7 @@ function SearchResults() {
     <>
       <Head>
         <title>Results: {songName}</title>
-	<meta name="theme-color" content="#09342e" />
+        <meta name="theme-color" content="#09342e" />
       </Head>
       <SearchSection />
       <ResultSection songList={songList} />
