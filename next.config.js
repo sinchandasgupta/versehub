@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-};
 
-module.exports = {
+const withPWA = require("next-pwa");
+
+const config = {
   images: {
     domains: ["images.genius.com", "images.rapgenius.com", "assets.genius.com"],
   },
@@ -12,3 +11,11 @@ module.exports = {
     defaultLocale: "en",
   },
 };
+
+const nextConfig = withPWA({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+})(config);
+
+module.exports = nextConfig;
