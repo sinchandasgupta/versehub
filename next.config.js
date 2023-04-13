@@ -7,4 +7,8 @@ module.exports = {
   images: {
     domains: ["images.genius.com", "images.rapgenius.com", "assets.genius.com"],
   },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
 };

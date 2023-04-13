@@ -26,7 +26,7 @@ function SearchInput() {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <button className={styles.searchButton}>
+            <button className={styles.searchButton} aria-label="Searchbutton">
               <Search color="white" />
             </button>
           </div>
