@@ -8,9 +8,9 @@
   text-decoration: none;
   border-radius: 0.5rem;
   transition: background-color 0.2s ease-in-out;
-  color: var(--mint12);
+  color: hsla(172, 70%, 12%, 0.85);
   border: 1px solid var(--mint3);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-out;
 }
 
 .result:hover {
@@ -34,6 +34,7 @@
   border: 1px solid var(--mint8);
   transform: scale(1.02);
   z-index: 1;
+  color: var(--mint12);
   box-shadow: var(--shadow-elevation-low);
 }
 
@@ -53,4 +54,5 @@
 
 .artistName {
   font-size: 0.75rem;
+  font-weight: 500;
 }

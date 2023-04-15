@@ -7,6 +7,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 1rem;
+  color: hsla(172, 70%, 12%, 0.85);
 }
 
 .viewer span {
