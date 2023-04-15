@@ -6,7 +6,13 @@ const fetcher = (url) => fetch(url, options).then((res) => res.json());
 function useSongList(searchTerm) {
   const { data, error, isLoading } = useSWR(
     `${BASE_URL}/search/?q=${searchTerm}`,
-    fetcher
+    fetcher,
+    {
+      revalidateOnMount: false,
+      revalidateOnFocus: false,
+      revalidateOnReconnect: false,
+      refreshInterval: 0,
+    }
   );
 
   return {
